@@ -1,0 +1,33 @@
+.Home{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Home div img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.Home div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2em;
+
+} 
+
+.Home div h1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Home div h1 span {
+    display: inline-block;
+}
+

@@ -11,8 +11,8 @@ function Portfolio() {
 const navigate = useNavigate()
 
   return (
-    <>
-    
+  
+    <div className='container-all'>
     <nav className='nav-bar'>
       <img className='logo' src={logo} onClick={()=>navigate('/')} alt="" />
         <ul className='menu-items'>
@@ -34,7 +34,8 @@ const navigate = useNavigate()
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path='/*' element={<Error/>}></Route>
       </Routes>
-    </>
+      </div>
+
   )
 }
 
