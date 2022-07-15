@@ -5,21 +5,23 @@ import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 import Error from './components/Error/Error' 
 import Skills from './components/Skills/Skills'
-import logo from './img/LOGOWHITE.jpg'
+import logo from './img/LOGOBLACK.jpg'
+import Particle from './Particle'
 
 function Portfolio() {
 const navigate = useNavigate()
 
   return (
-  
-    <div className='container-all'>
+  <>
+   
+  <div className='container-all'>
     <nav className='nav-bar'>
-      <img className='logo' src={logo} onClick={()=>navigate('/')} alt="" />
+      <h2 onClick={()=>navigate('./')}>GaboDev</h2>
         <ul className='menu-items'>
-            <li><button onClick={()=>navigate('./about')}>About me</button> </li>
-            <li><button onClick={()=>navigate('./skills')}>Skills</button> </li>
-            <li><button onClick={()=>navigate('./projects')}>Projects</button> </li>
-            <li><button onClick={()=>navigate('./contact')}>Contact</button> </li>
+            <li><button onClick={()=>navigate('./about')}>Sobre mi</button> </li>
+            <li><button onClick={()=>navigate('./skills')}>Habilidades</button> </li>
+            <li><button onClick={()=>navigate('./projects')}>Portafolio</button> </li>
+            <li><button onClick={()=>navigate('./contact')}>Contacto</button> </li>
         </ul>
         <span className='btn-menu'>
           <i class="fa-solid fa-bars-staggered"></i>
@@ -35,6 +37,8 @@ const navigate = useNavigate()
         <Route path='/*' element={<Error/>}></Route>
       </Routes>
       </div>
+  </>
+    
 
   )
 }
