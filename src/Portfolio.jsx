@@ -24,7 +24,7 @@ const navigate = useNavigate()
             <li><button onClick={()=>navigate('./contact')}>Contacto</button> </li>
         </ul>
         <span className='btn-menu'>
-          <i class="fa-solid fa-bars-staggered"></i>
+          <i className='fa-solid fa-bars-staggered'></i>
         </span>
     </nav>
   
