@@ -5,8 +5,7 @@ import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 import Error from './components/Error/Error' 
 import Skills from './components/Skills/Skills'
-import logo from './img/LOGOBLACK.jpg'
-import Particle from './Particle'
+import './js/isShow'
 
 function Portfolio() {
 const navigate = useNavigate()
