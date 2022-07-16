@@ -5,7 +5,7 @@ import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 import Error from './components/Error/Error' 
 import Skills from './components/Skills/Skills'
-import './isShow.js'
+import './isshow.js'
 
 function Portfolio() {
 const navigate = useNavigate()
